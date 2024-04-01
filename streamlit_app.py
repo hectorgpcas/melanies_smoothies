@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-from snowflake.snowpark.functions import col
+from snowflake.snowpark.functions import get_active_session
 
 #new section to display fruityvice nutrition information
 #st.text(fruityvice_response.json()
